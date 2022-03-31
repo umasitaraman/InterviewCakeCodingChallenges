@@ -6,10 +6,8 @@ import lombok.*;
 @AllArgsConstructor
 
 public class Meeting {
-
     private int startTime;
     private int endTime;
-
 //    public Meeting(int startTime, int endTime) {
 //        // number of 30 min blocks past 9:00 am
 //        this.startTime = startTime;
